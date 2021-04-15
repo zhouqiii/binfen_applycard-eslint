@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="36px" viewBox="0 0 52 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>编组 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="一键还款" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="综合账单-支付键盘弹窗" transform="translate(-600.000000, -1266.000000)" stroke="#333333" stroke-width="3">
+            <g id="键盘" transform="translate(0.000000, 934.000000)">
+                <g id="键盘1备份-2" transform="translate(500.000000, 300.000000)">
+                    <g id="icon_键盘_删除" transform="translate(100.000000, 32.000000)">
+                        <g id="编组-5" transform="translate(1.000000, 2.000000)">
+                            <path d="M17.7931544,-3.60182104e-13 L47,0 C48.1045695,1.15697514e-14 49,0.8954305 49,2 L49,30 C49,31.1045695 48.1045695,32 47,32 L17.7931544,32 C17.2836851,32 16.7934205,31.8055722 16.422425,31.4564 L1.54742498,17.4564 C0.743077483,16.699367 0.704721454,15.4336181 1.4617544,14.6292706 C1.48943955,14.5998551 1.51800951,14.5712852 1.54742498,14.5436 L16.422425,0.543600015 C16.7934205,0.194427776 17.2836851,-3.62828221e-13 17.7931544,-3.57491814e-13 Z" id="矩形"></path>
+                            <g id="编组-2" transform="translate(24.000000, 9.000000)" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M-2.66453526e-14,-7.10542736e-15 L14.1421356,14" id="路径-2"></path>
+                                <path d="M-2.66453526e-14,-7.10542736e-15 L14.1421356,14" id="路径-2备份" transform="translate(7.071068, 7.000000) scale(-1, 1) translate(-7.071068, -7.000000) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

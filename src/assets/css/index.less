@@ -1,0 +1,307 @@
+@import './mixin.less';
+@import './var.less';
+
+// reset
+html,
+body{
+	background: #F8F8F8;
+	font-family: PingFang-SC-Heavy, PingFangSC-Regular, PingFang SC;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: none;
+	-webkit-overflow-scrolling: touch;
+	text-align: center;
+	color: @gray333;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: inherit;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+div,p{
+	box-sizing: border-box;
+}
+
+/* 适配ios9和ios10的状态栏，另外需要ios客户端设置
+self.automaticallyAdjustsScrollViewInsets = NO */
+.ios-padding-top{
+    padding-top: 20px;
+}
+
+// bottom fixed
+.bottom-fixed{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 24px 32px;
+	background-color: @white;
+}
+.formssi-btn{
+	background-color:@btnred ;
+	height: 88px;
+	border-radius: @bor8px;
+	font-size: @font30;
+	.flex-mixin();
+	color:@white;
+	&.disabled{
+		background-color: rgba(232, 94, 78, .3);
+	}
+}
+
+.home{
+	.main{
+		background: linear-gradient(135deg, #FF847F 0%, #FD5B5B 100%);
+		color: @white;
+		font-size: @font28;
+		overflow: hidden;
+		.repay-title{
+			padding: 40px 32px 24px;
+			position: relative;
+			.date{
+				position: absolute;
+				left: 32px;
+				top: 40px;
+				font-size: 26px;
+			}
+		}
+		.repay-amount{
+			font-size: 34px;
+			padding-bottom: 40px;
+		}
+		.repay-type{
+			width: 296px;
+			border: 1px solid @white;
+			border-radius: @bor8px;
+			margin: 0 auto 40px;
+			overflow: hidden;
+			.flex-mixin();
+			.btn{
+				width:50%;
+				height: 60px;
+				.flex-mixin();
+				&.active{
+					background-color: @white;
+					color:@red;
+					.fontB();
+				}
+			}
+		}
+		.last-block{
+			background-color: rgba(255,255,255,.1);
+			.flex-mixin();
+			padding: 24px 6px;
+			.content{
+				width: 50%;
+				text-align: center;
+				position: relative;
+				&:first-child::after{
+					.border-line(@opacity:0.3)
+				}
+				.title{
+					font-size: @font28;
+					padding-bottom: 8px;
+				}
+				.amount{
+					font-size: 17px;
+				}
+			}
+		}
+	}
+	.bank-list{
+		padding: 30px 32px 85px;
+		.bottom-fixed-pad();
+		.bank-title{
+			.flex-mixin(row,center,flex-start);
+			font-size: @font36;
+			font-weight: 600;
+			margin-bottom: 32px;
+			.txt{
+				padding-right: 4px;;
+			}
+		}
+		.list-item{
+			.white-block;
+			.list-title{
+				.flex-mixin(row,center,space-between);
+				position: relative;
+				&::before{
+					.border-bottom-line();
+				}
+				font-size: @font30;
+				padding: 32px 0;
+				.bank{
+					// flex:1;
+					.fontB();
+				}
+				.more{
+					color:@red;
+					.flex-mixin();
+					.txt{
+						margin-right: 2px;
+					}
+				}
+			}
+			.list-block{
+				.flex-mixin();
+				.list-main{
+					width:50%;
+					padding: 32px 0;
+					position: relative;
+					&:first-child::before{
+						.border-line(@color:#EEEEEE)
+					}
+					.txt{
+						font-size: 26px;
+					}
+					.amount{
+						font-weight: bold;
+						font-size: @font30;
+						padding-top: 8px;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* NoContent */ 
+.noContent{
+  height: calc(100vh - 92px);
+  width:100vw;
+  padding-bottom:298px;
+  font-size: @font30;
+  line-height: 42px;
+  .flex-mixin(column);
+  .img_icon{
+	  width: 200px;
+	  height: 200px;
+	  margin-bottom: 24px;
+  }
+  .txt{
+	  
+  }
+  .icon_reload{
+	  margin-right: 8px;
+  }
+  .no-btn-wrap{
+	  padding-top: 24px;
+	  .flex-mixin();
+	  .link{
+		  color:@red;
+	  }
+  }
+  .no-btn{
+	  width: 335px;
+	  height: 88px;
+	  .flex-mixin();
+	  margin-top: 24px;
+	  border:1px solid @btnred;
+	  color:@btnred;
+	  border-radius: @bor8px;
+  }
+}
+.icon_reload{
+	width: 36px;
+	height: 36px;
+}
+
+/* PaymentPassword */
+.payPwd{
+	.title{
+		padding: 40px 34px 60px;
+		position: relative;
+		font-size: @font36;
+		.fontB();
+		line-height: 44px;
+		.close{
+			position: absolute;
+			left: 34px;
+			top: 40px;
+		}
+	}
+	.amount{
+		font-size: 64px;
+		font-weight: 800;
+		padding-bottom: 60px;
+	}
+	.van-password-input{
+		margin:0 72px 32px;
+		[class*='van-hairline']::after{
+			border-color: #DCDCDC;
+		}
+	}
+	.van-key{
+		border-radius: 0;
+		font-size: 44px;
+		color: @gray333;
+	}
+	.error-info{
+		font-size: 26px;
+		margin:0 32px 60px;
+		.flex-mixin();
+		.error{
+			text-align: left;
+			flex:1;
+			color:@red;
+		}
+	}
+	.keyboard{
+		.flex-mixin();
+		display: flex;
+		flex: 3;
+		flex-wrap: wrap;
+		.key-wrap{
+			font-size: 44px;
+			.fontB();
+			flex: 1;
+			height: 100px;
+			.flex-mixin();
+			flex-basis: 33%;
+			position: relative;
+			&::after{
+				position: absolute;
+				content: ' ';
+				pointer-events: none;
+				top: -50%;
+				right: -50%;
+				bottom: -50%;
+				left: -50%;
+				border: 0 solid @grayeee;
+				transform: scale(0.5);
+				border-width: 1px 1px 0 0;
+			}
+			&:last-child,
+			&:nth-last-child(3){
+				background-color: @grayeee;
+			}
+			&:nth-of-type(3n+3){
+				position: relative;
+				&::after{
+					border-right-width: 0;
+				}
+			}
+			.dot{
+				width: 8px;
+				height: 8px;
+				background-color: @gray333;
+			}
+		}
+	}
+}
