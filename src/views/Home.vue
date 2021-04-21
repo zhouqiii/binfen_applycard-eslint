@@ -59,7 +59,7 @@ export default {
     return {
       colorGray: '#333',
       showPicker: false,
-      tabList: ['杭州', '宁波', '温州', '绍兴', '湖州', '嘉兴', '金华', '衢州'],
+      tabList: ['杭州', '宁波', '温州', '绍兴', '湖州', '嘉兴', '金华', '衢州'], // , '宁波', '温州', '绍兴', '湖州', '嘉兴', '金华', '衢州'
       onLine: navigator.onLine, // 判断是否断网
       code: '388',
       dataObj: {
@@ -104,6 +104,7 @@ export default {
       console.log(`'picker='${picker},'value='${value},'index='${index}`);
     },
     updateOnlineStatus(e) {
+      // console.log(e);//e.type===online/offline
       const { type } = e;
       this.onLine = type === 'online';
       if (!this.onLine) {

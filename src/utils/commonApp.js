@@ -303,7 +303,7 @@ function openApp(userParameters) {
       //      }, 3000);
     }
     // 当页面在后台运行时清空定时器防止页面跳转到下载页
-    const visibilitychange = function () {
+    const visibilitychange = () => {
       const tag = document.hidden || document.webkitHidden;
       if (tag) clearTimeout(loadTimer);
     };
@@ -339,7 +339,7 @@ function openApp(userParameters) {
       //      }, 3000);
     }
     // 当页面在后台运行时清空定时器防止页面跳转到下载页
-    const visibilitychange = function () {
+    const visibilitychange = () => {
       const tag = document.hidden || document.webkitHidden;
       if (tag) clearTimeout(loadTimer);
     };

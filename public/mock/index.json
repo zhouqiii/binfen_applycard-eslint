@@ -1,0 +1,197 @@
+{
+  "ret": true,
+  "data": {
+    "HotList": [{
+        "cardId": "1",
+        "defaultPic": "../mock/myimg/card4.png",
+        "cardName":"中银VISA冬奥信用卡",
+        "cardIntro":"副标题，精简文"
+      },{
+        "cardId": "2",
+        "defaultPic":"../mock/myimg/card4.png",
+        "cardName":"中银数字信用卡白",
+        "cardIntro":"副标题，精简文案"
+      },{
+        "cardId": "3",
+        "defaultPic": "../mock/myimg/card4.png",
+        "cardName":"长城银联白金卡",
+        "cardIntro":"副标题，精简文案"
+      },{
+        "cardId": "4",
+        "defaultPic": "../mock/myimg/card4.png",
+        "cardName":"留学卓越Visa卡",
+        "cardIntro":"副标题，精简文案"
+      }],
+      "SwipeList": [{
+        "id": "1",
+        "defaultPic": "../mock/myimg/swiper1.png",
+        "cardName":"中银VISA冬奥信用卡",
+        "cardIntro":"副标题，精简文"
+      },{
+        "id": "2",
+        "defaultPic":"../mock/myimg/swiper2.png",
+        "cardName":"中银数字信用卡白",
+        "cardIntro":"副标题，精简文案"
+      },{
+        "id": "3",
+        "defaultPic": "../mock/myimg/swiper3.png",
+        "cardName":"长城银联白金卡",
+        "cardIntro":"副标题，精简文案"
+      },{
+        "id": "4",
+        "defaultPic": "../mock/myimg/swiper4.jpg",
+        "cardName":"留学卓越Visa卡",
+        "cardIntro":"副标题，精简文案"
+      }],"CardPage": [{
+        "id": "1",
+        "defaultPic": "../mock/myimg/card1.png",
+        "cardName":"留学卓越Visa卡",
+        "cardIntro":"副标题，精简文案"
+      },{
+        "id": "2",
+        "defaultPic":"../mock/myimg/card2.png",
+        "cardName":"留学卓越Visa卡",
+        "cardIntro":"副标题，精简文案"
+      }],
+      "CardExp": [{
+        "cardId":10001,
+        "nian":"1免年费，次年300/年，标准说明区域免年费，次年300/年，标准说明区域",
+        "quan":"1权益说明区域权益说明区域权益说明区域权益说明区域权益说明区域权益说明区域",
+        "defaultPic":"../mock/myimg/card2.png",
+        "cardName":"1留学卓越Visa卡",
+        "cardIntro":"1副标题，精简文案",
+        "quanName":"1权益说明：",
+        "quanContent":"1中银数字信用卡是中国银行推出的无实体介质卡片，免去繁琐的交付环节。</br>★2020年12月24日-2021年3月31日，使用中银数字信用卡金卡、中银数字信用卡白金卡、中银数字ETC卡通过微信支付、支付宝、京东支付、唯品会、美团快捷支付消费，每消费人民币1元可累计中国银行信用卡交易积分3积分。每名持卡人每月最多获得5万积分奖励。详见“中国银行信用卡”微信公众号。</br>★尊享银联白金信用卡礼遇，详见云闪付APP权益精选介绍。",
+        "nianName":"1年费标准：",
+        "nianContent":"1（1）2021年12月31日前申请，免首年年费，消费12笔免次年年费。</br>（2）我行将在您卡片激活后的首个账单日检查是否收取年费（每年的年费均在此日期进行检查确认是否收取），如果该账单日在卡片申请成功后的一年内，则免首年年费。</br>（3）超出免年费期限，需在下个年费收取日期前消费达标，可免次年年费。</br>（4）信用卡年费标准详见中国银行官网公告。"
+      },{
+        "cardId": 10002,
+        "defaultPic": "../mock/myimg/card1.png",
+        "cardName":"2留学卓越Visa卡",
+        "cardIntro":"2副标题，精简文案",
+        "nian":"2免年费，次年300/年，标准说明区域免年费，次年300/年，标准说明区域",
+        "quan":"2权益说明区域权益说明区域权益说明区域权益说明区域权益说明区域权益说明区域",
+        "quanName":"2权益说明：",
+        "quanContent":"2中银数字信用卡是中国银行推出的无实体介质卡片，免去繁琐的交付环节。</br>★2020年12月24日-2021年3月31日，使用中银数字信用卡金卡、中银数字信用卡白金卡、中银数字ETC卡通过微信支付、支付宝、京东支付、唯品会、美团快捷支付消费，每消费人民币1元可累计中国银行信用卡交易积分3积分。每名持卡人每月最多获得5万积分奖励。详见“中国银行信用卡”微信公众号。</br>★尊享银联白金信用卡礼遇，详见云闪付APP权益精选介绍。",
+        "nianName":"2年费标准：",
+        "nianContent":"2（1）2021年12月31日前申请，免首年年费，消费12笔免次年年费。</br>（2）我行将在您卡片激活后的首个账单日检查是否收取年费（每年的年费均在此日期进行检查确认是否收取），如果该账单日在卡片申请成功后的一年内，则免首年年费。</br>（3）超出免年费期限，需在下个年费收取日期前消费达标，可免次年年费。</br>（4）信用卡年费标准详见中国银行官网公告。"
+      },{
+        "cardId":10003,
+        "nian":"3免年费，次年300/年，标准说明区域免年费，次年300/年，标准说明区域",
+        "quan":"3权益说明区域权益说明区域权益说明区域权益说明区域权益说明区域权益说明区域",
+        "defaultPic":"../mock/myimg/card2.png",
+        "cardName":"3留学卓越Visa卡",
+        "cardIntro":"3副标题，精简文案",
+        "quanName":"3权益说明：",
+        "quanContent":"3中银数字信用卡是中国银行推出的无实体介质卡片，免去繁琐的交付环节。</br>★2020年12月24日-2021年3月31日，使用中银数字信用卡金卡、中银数字信用卡白金卡、中银数字ETC卡通过微信支付、支付宝、京东支付、唯品会、美团快捷支付消费，每消费人民币1元可累计中国银行信用卡交易积分3积分。每名持卡人每月最多获得5万积分奖励。详见“中国银行信用卡”微信公众号。</br>★尊享银联白金信用卡礼遇，详见云闪付APP权益精选介绍。",
+        "nianName":"3年费标准：",
+        "nianContent":"3（1）2021年12月31日前申请，免首年年费，消费12笔免次年年费。</br>（2）我行将在您卡片激活后的首个账单日检查是否收取年费（每年的年费均在此日期进行检查确认是否收取），如果该账单日在卡片申请成功后的一年内，则免首年年费。</br>（3）超出免年费期限，需在下个年费收取日期前消费达标，可免次年年费。</br>（4）信用卡年费标准详见中国银行官网公告。"
+      },{
+        "cardId":10004,
+        "nian":"4免年费，次年300/年，标准说明区域免年费，次年300/年，标准说明区域",
+        "quan":"4权益说明区域权益说明区域权益说明区域权益说明区域权益说明区域权益说明区域",
+        "defaultPic":"../mock/myimg/card2.png",
+        "cardName":"4留学卓越Visa卡",
+        "cardIntro":"4副标题，精简文案",
+        "quanName":"4权益说明：",
+        "quanContent":"4中银数字信用卡是中国银行推出的无实体介质卡片，免去繁琐的交付环节。</br>★2020年12月24日-2021年3月31日，使用中银数字信用卡金卡、中银数字信用卡白金卡、中银数字ETC卡通过微信支付、支付宝、京东支付、唯品会、美团快捷支付消费，每消费人民币1元可累计中国银行信用卡交易积分3积分。每名持卡人每月最多获得5万积分奖励。详见“中国银行信用卡”微信公众号。</br>★尊享银联白金信用卡礼遇，详见云闪付APP权益精选介绍。",
+        "nianName":"4年费标准：",
+        "nianContent":"4（1）2021年12月31日前申请，免首年年费，消费12笔免次年年费。</br>（2）我行将在您卡片激活后的首个账单日检查是否收取年费（每年的年费均在此日期进行检查确认是否收取），如果该账单日在卡片申请成功后的一年内，则免首年年费。</br>（3）超出免年费期限，需在下个年费收取日期前消费达标，可免次年年费。</br>（4）信用卡年费标准详见中国银行官网公告。"
+      },{
+        "cardId": 100010,
+        "dialogcardName":"中国银行股份有限公司信用卡领用合约",
+        "cardIntro":"权益说明区域权益说明区域权益说明区域权益说明区域权",
+        "dialogcardIntroc":"<div style='text-indent: 1.5em;'>甲方：中国银行股份有限公司信用卡主卡申请人/主卡持卡人/附属卡申请人/附属卡持卡人（如无特别说明，甲方指上述主体中的全部或任何一方）</div><div style='text-indent: 1.5em;'>乙方：中国银行股份有限公司</div><div style='text-indent: 1.5em;'>基于甲方知悉、理解并遵守《中国银行股份有限公司信用卡章程》（以下简称“《章程》”）、本合约，甲方自愿向乙方申请使用中国银行股份有限公司信用卡（以下称“信用卡”），就信用卡的申领和使用等相关事宜，甲乙双方签订如下合约：</div><div style='text-indent: 1.5em;'>第一条 申领</div></br><div style='text-indent: 1.5em;'> 1.甲方保证向乙方提供的所有申请资料真实、完整、准确、合法、有效，其中手机号码应与甲方一一对应，如有因甲方办理附属卡等使用同一手机号的合理情形，甲方应出具相关说明。无论申请成功与否，甲方同意乙方可以保留相关申请资料，无须退还。申请资料须由甲方本人亲自签名确认。</div></br><div style='text-indent: 1.5em;'>甲方同意并授权，乙方有权出于相关信用卡业务（包括但不限于信用卡审批、用卡管理及风险评估与管理、为甲方提供服务）的需要，向个人信用信息基础数据库、公安部全国公民身份证号码查询服务中心、中国银联股份有公司信用卡。</div><div style='text-indent: 1.5em;'>第二条 申领</div></br><div style='text-indent: 1.5em;'> 1.甲方保证向乙方提供的所有申请资料真实、完整、准确、合法、有效，其中手机号码应与甲方一一对应，如有因甲方办理附属卡等使用同一手机号的合理情形，甲方应出具相关说明。无论申请成功与否，甲方同意乙方可以保留相关申请资料，无须退还。申请资料须由甲方本人亲自签名确认。</div></br><div style='text-indent: 1.5em;'>甲方同意并授权，乙方有权出于相关信用卡业务（包括但不限于信用卡审批、用卡管理及风险评估与管理、为甲方提供服务）的需要，向个人信用信息基础数据库、公安部全国公民身份证号码查询服务中心、中国银联股份有公司信用卡。</div>"
+      }],"TravelList": [{
+        "id": "1",
+        "defaultPic": "../mock/myimg/card3.png",
+        "cardName":"中银VISA冬奥信用卡",
+        "cardIntro":"持卡上冰雪多项立"
+      },{
+        "id": "2",
+        "defaultPic":"../mock/myimg/card3.png",
+        "cardName":"中银数字信用卡白",
+        "cardIntro":"副标题，精简文案"
+      }],
+      "SpecialList": [{
+        "id": "1",
+        "defaultPic": "../mock/myimg/cardMain.png",
+        "cardName":"中银VISA冬奥信用卡",
+        "cardIntro":"持卡上冰雪多项立"
+      },{
+        "id": "2",
+        "defaultPic":"../mock/myimg/card3.png",
+        "cardName":"中银数字信用卡白",
+        "cardIntro":"副标题，精简文案"
+      },{
+        "id": "3",
+        "defaultPic": "../mock/myimg/card3.png",
+        "cardName":"长城银联白金卡",
+        "cardIntro":"副标题，精简文案"
+      }],
+      "showList": [{
+        "id": "1",
+        "defaultPic": "../mock/myimg/card3.png",
+        "cardName":"中银VISA冬奥信用卡",
+        "cardIntro":"持卡上冰雪多项立持卡上冰雪多项立"
+      },{
+        "id": "2",
+        "defaultPic":"../mock/myimg/card3.png",
+        "cardName":"中银数字信用卡白",
+        "cardIntro":"副标题，精简文案"
+      },{
+        "id": "3",
+        "defaultPic": "../mock/myimg/card3.png",
+        "cardName":"长城银联白金卡",
+        "cardIntro":"副标题，精简文案"
+      },{
+        "id": "4",
+        "defaultPic": "../mock/myimg/card3.png",
+        "cardName":"长城银联白金卡",
+        "cardIntro":"副标题，精简文案"
+      }],
+      "ApprovalList":[{
+        "id": "1",
+        "defaultPic": "../mock/myimg/card4.png",
+        "cardName":"中银VISA冬奥信用卡",
+        "cardIntro":"副标题，精简文",
+        "time":"2020/2/3",
+        "progress":"审批拒绝",
+        "line":"-1",
+        "timestamp": "2018-04-03 20:46"
+      },{
+        "id": "2",
+        "defaultPic":"../mock/myimg/card4.png",
+        "cardName":"中银数字信用卡白",
+        "cardIntro":"副标题，精简文案",
+        "time":"2020/2/4",
+        "progress":"物流邮寄中",
+        "line":"1",
+        "timestamp": "2018-04-03 20:46"
+      },{
+        "id": "3",
+        "defaultPic": "../mock/myimg/card4.png",
+        "cardName":"长城银联白金卡",
+        "cardIntro":"副标题，精简文案",
+        "time":"2020/2/3",
+        "progress":"已激活",
+        "line":"3",
+        "timestamp": "2018-04-03 20:46"
+      },{
+        "id": "4",
+        "line":"0",
+        "defaultPic": "../mock/myimg/card4.png",
+        "cardName":"留学卓越Visa卡",
+        "cardIntro":"副标题，精简文案",
+        "time":"2020/3/3",
+        "progress":"审批通过",
+        "timestamp": "2018-04-12 20:46"
+      }],
+      "msgBox":{
+        "cardName":"同意授权缤纷生活将本人银行卡信息传递给京东",
+        "cancel":"取消",
+        "confirm":"确定"
+      }
+    
+  }
+}

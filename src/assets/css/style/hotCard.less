@@ -1,0 +1,56 @@
+.cart{
+    .card{
+        display: flex;
+        flex-direction:row;
+        margin-bottom: 3%;
+        img{
+          width: 100%;
+        }
+        p{
+            margin-top: 0;
+        }
+        .applyCard{
+            height: 1.3rem;
+            width: 4rem;
+            font-size: .8rem;
+            background-color: gray;
+            border-radius: 1rem;
+            text-align: center;
+            line-height: 1.3rem;
+            color: #ffffff;
+        }
+    }
+}
+
+//在查看卡片列表时使用该组件的样式变化
+.CardBoxList{
+    width: -webkit-fill-available;
+    margin: .5em;
+    .active{
+        padding-left: 24px;
+        margin-bottom: .5rem;
+    }
+    .activeBox{
+        padding: 0 24px;
+        border: 1px solid #83757569;
+        border-radius: 16px;
+        background: #ffffff;
+        margin-bottom: 2%;
+        .applyProgress{
+            height: 1.6em;
+            width: 6em;
+            background-color: #c16930;
+            border-radius: 1em;
+            text-align: center;
+            line-height: 1.6em;
+            color: #ffffff;
+            font-size: .875rem;
+        }
+    }
+}
+//进度查询样式
+.CardBoxQuery{
+    background: #ffffff;
+    border: 1px solid #83757569;
+    border-radius: 0.5rem;
+}
