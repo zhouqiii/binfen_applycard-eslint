@@ -12,7 +12,6 @@ export const instance = axios.create({
   timeout: 15000,
 });
 let ld;
-
 /** 添加请求拦截器 * */
 instance.interceptors.request.use((config) => {
   ld = createDom(Loading);
